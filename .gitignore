@@ -1,0 +1,43 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive or private information
+secrets.txt
+credentials.json
+
+# Ignore compiled binaries or executables
+*.exe
+*.dll
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
+
+# Node.js dependencies
+node_modules/
+
+# Vite-specific files and folders
+/dist/
+/node_modules/
+/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
